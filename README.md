@@ -1,2 +1,0 @@
-# NetCore
- CURSO NET CORE

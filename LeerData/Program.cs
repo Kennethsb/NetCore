@@ -1,16 +1,23 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.SqlServer;
+
 namespace LeerData
 {
     class Program
-   {
+    {
         static void Main(string[] args)
         {
-
-
-          Console.WriteLine("Hola Alumnos al curso ASP.NET CORE - React Hooks");
+            using (var db = new AppVentaCursosContext())
+            {
+                var cursos = db.Curso.AsNoTracking(); //arreglo IQueable
+                foreach (var curso in cursos)
+                {
+                    Console.WriteLine(curso.Titulo);
+                }
+            }
         }
     }
-    
 }
 
 
