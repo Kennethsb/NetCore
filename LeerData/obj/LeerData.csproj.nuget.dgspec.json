@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Desarrollo Web\\NetCore\\LeerData\\LeerData.csproj": {}
+    "C:\\Desarrollo Web\\NetCore\\leerdata\\LeerData.csproj": {}
   },
   "projects": {
-    "C:\\Desarrollo Web\\NetCore\\LeerData\\LeerData.csproj": {
+    "C:\\Desarrollo Web\\NetCore\\leerdata\\LeerData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Desarrollo Web\\NetCore\\LeerData\\LeerData.csproj",
+        "projectUniqueName": "C:\\Desarrollo Web\\NetCore\\leerdata\\LeerData.csproj",
         "projectName": "LeerData",
-        "projectPath": "C:\\Desarrollo Web\\NetCore\\LeerData\\LeerData.csproj",
+        "projectPath": "C:\\Desarrollo Web\\NetCore\\leerdata\\LeerData.csproj",
         "packagesPath": "C:\\Users\\Ken\\.nuget\\packages\\",
-        "outputPath": "C:\\Desarrollo Web\\NetCore\\LeerData\\obj\\",
+        "outputPath": "C:\\Desarrollo Web\\NetCore\\leerdata\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ken\\AppData\\Roaming\\NuGet\\NuGet.Config"

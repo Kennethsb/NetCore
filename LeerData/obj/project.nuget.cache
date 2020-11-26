@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rbtb63WDGsTLFbSYJlxNxqsgM3tq0lIa7YLum/EFr0gxS3eUtcDWSccdnT8eVn+pawUZiwMxtL2rcibn/SkWRw==",
+  "dgSpecHash": "L4Fk2v0znmlwlFGlR1FOagYPWbEwDddeaextgUwMNi2jxk9kXrZ+VGAsWw2MoJH0gBXHM6Om/YsGNuUBOOQqVg==",
   "success": true,
-  "projectFilePath": "C:\\Desarrollo Web\\NetCore\\LeerData\\LeerData.csproj",
+  "projectFilePath": "C:\\Desarrollo Web\\NetCore\\leerdata\\LeerData.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ken\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Ken\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

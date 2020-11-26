@@ -1,6 +1,8 @@
+using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 using MySql.Data.EntityFrameworkCore.Extensions;
+
 
 namespace LeerData
 {
@@ -8,7 +10,7 @@ namespace LeerData
     {
 
         public AppVentaCursosContext(){
-            DatabaseGeneratedAttribute.SetCommandTimeout(15000);
+            Database.SetCommandTimeout(15000);
         }
 
         private const string ConnectionStringMySql = @"Server=89.46.111.105;database=Sql1341964_1;user=Sql1341964;password=fv47461kpj;old guids=true;default command timeout=800";
@@ -16,7 +18,7 @@ namespace LeerData
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer(ConnectionString);
-            optionsBuilder.UseMySQL(ConnectionStringMySql)
+            optionsBuilder.UseMySQL(ConnectionStringMySql);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
